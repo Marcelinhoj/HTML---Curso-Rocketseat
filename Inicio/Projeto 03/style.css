@@ -1,0 +1,33 @@
+header p {
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #42d3ff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e5e5e5;
+
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  width: 368px;
+  background: #121214;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #121211;
+}
+
+header h1 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+}
