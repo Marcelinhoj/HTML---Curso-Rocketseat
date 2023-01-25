@@ -87,5 +87,10 @@ body {
     color: #090039;
 
   }
+  /* media queries */
+
+  @media (min-width: 40em)
+
+
 
 
