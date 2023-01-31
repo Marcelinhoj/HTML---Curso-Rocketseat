@@ -37,9 +37,6 @@ body {
 }
 
 @media (min-width: 700px) {
-  :root {
-    --fs-heading: 5.6rem;
-   }
    
    
     .page {
@@ -123,6 +120,7 @@ main {
   height: 41.6rem;
   object-fit: cover;
   border-radius: 6px;
+  filter: brightness(0.5);
 
   transition: all 200ms;
 }
